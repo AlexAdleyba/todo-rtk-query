@@ -6,7 +6,7 @@ export const getTheme = (themeMode: ThemeMode) => {
     palette: {
       mode: themeMode === "light" ? "light" : "dark",
       primary: {
-        main: "#087EA4",
+        main: "rgba(162,90,230,0.87)",
       },
     },
   })
